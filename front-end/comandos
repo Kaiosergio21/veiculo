@@ -1,0 +1,7 @@
+// Instalar globalment
+
+npm install -g create-react-app
+
+//Depois, crie o app:
+create-react-app meu-app
+

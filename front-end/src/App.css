@@ -1,0 +1,60 @@
+/* Estilos globais para o tema claro (padrão) */
+body {
+  background-color: #fff8f8;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-button{
+
+  width:50px ;
+  height: 20px;
+ 
+}
+
+.dark-mode-toggle{
+
+  color: #fff8f8;
+  background: #333;
+}
+
+
+
+
+
+/* Estilos para o tema escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    
+}
+
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.dark-mode .form-control {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #555;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #444;
+    color: #ffffff;
+    border-color: #777;
+}
+
+.dark-mode .table {
+    color: #ffffff;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+    border-color: #555;
+    background: #121212;
+    color: #fff8f8;
+}
