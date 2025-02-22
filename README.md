@@ -37,6 +37,17 @@ Este é um projeto de gerenciamento de veículos desenvolvido com **React** para
 
 ---
 
+-tabela 
+
+USE spring_react
+
+CREATE TABLE veiculos (
+    codigo INT AUTO_INCREMENT PRIMARY KEY,  -- Código único para cada veículo
+    marca VARCHAR(50) NOT NULL,             -- Marca do veículo
+    modelo VARCHAR(50) NOT NULL,            -- Modelo do veículo
+    ano INT NOT NULL                        -- Ano de fabricação
+);
+
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
